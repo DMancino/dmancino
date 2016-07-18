@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dillons' Profile</title>
+	<link href="../css/main.css" type="text/css" rel="stylesheet"/>
+	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon"/ >
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="navigation">
+		<div id="row">
+			<a href="index.html">Home</a>
+		</div>
+		<div id="row">
+			<a href="aboutme.html">About Me</a>
+		</div>
+		<div id="row" class="currenttab">
+			<a href="contactme.html">Contact Me</a>
+	</div>
+	<div class="left"></div>
+	<div class="right">
+	<tr>
+		<form method="post" action="../php/submitform.php">
+		<center>
+		<font color="black">What's your name?<br><input name="email" type="text"></font>
+		</center>
+		<br>
+		<center>
+		<input type="radio" name="visitor" value="Friend" checked> Friend
+		<input type="radio" name="visitor" value="Family"> Family
+		<input type="radio" name="visitor" value="Business"> Business
+		</center>
+		<br>
+		<center>
+		<font color="black">Your questions, comments, or concerns:<br><textarea name="message" rows="5" cols="50"></textarea></font>
+		</center>
+		<br>
+		<center>
+		<input type="submit" value="Submit Request!">
+		</center>
+		</form>
+	</tr>
+				
+	</div>
+	<div class="footer">
+		<p>Thank you for viewing Dillon Mancino's webpage</p>
+		<a href="mailto:mancinodillon20@gmail.com?subject=From your webpage!">
+Send an email to Dillon</a> 
+	</div>
+
+</body>
+
+
+</html>
